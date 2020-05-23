@@ -19,6 +19,7 @@ public class ScrapSurvivalMods {
 
     public static void main(String[] args) {
         JFileChooser fileChooser = new JFileChooser();
+        fileChooser.setDialogTitle("Please open your Scrap Mechanic directory");
         fileChooser.setDialogType(JFileChooser.OPEN_DIALOG);
         fileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
         int response = fileChooser.showOpenDialog(null);
