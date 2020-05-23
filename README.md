@@ -1,5 +1,6 @@
 # Scrap Mechanic Survival Mods Loader
-This is a game patcher for the game Scrap Mechanic.
+This is a game patcher for the game Scrap Mechanic.\
+Download the latest version here: https://cerus-dev.de/projects/ssm/scrapsurvivalmods-1.0.0.jar
 
 > **IMPORTANT NOTE**\
 > You can't load real SM mods with this application! This application directly modifies the game's script files.
@@ -7,6 +8,11 @@ This is a game patcher for the game Scrap Mechanic.
 The patcher loads its default mods from my website, but you can add your own. These mods are available on my website:
 - Oil Drops by me
 - Clam Drops by me
+
+## How to build
+1. [Download Java](https://adoptopenjdk.net/) (the application requires at least Java 8) and [Maven](http://maven.apache.org/)
+2. Clone this repository `git clone https://github.com/RealCerus/scrap-survival-mods`
+3. Build the project with Maven `mvn package`
 
 ## How to write a mod for this patcher
 The mods need to be in the JSON format. Here's an example mod which changes the drops of oil geysers:
