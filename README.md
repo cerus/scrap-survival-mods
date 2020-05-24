@@ -8,6 +8,8 @@ Download the latest version here: https://cerus-dev.de/projects/ssm/scrapsurviva
 The patcher loads its default mods from my website, but you can add your own. These mods are available on my website:
 - Oil Drops by me
 - Clam Drops by me
+- Pigment Flower Drops by me
+- Cotton Plant Drops by me
 
 ## How to build
 1. [Download Java](https://adoptopenjdk.net/) (the application requires at least Java 8) and [Maven](http://maven.apache.org/)
